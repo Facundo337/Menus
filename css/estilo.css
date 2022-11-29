@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+}
+
+nav{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+li{
+    margin-left: 15px; 
+}
+
+
+.menu1{
+    justify-content: center;
+    display: flex;
+    border: 1px solid red;
+}
+.menu2{ 
+    justify-content: center;
+    display: flex;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+.menu3{ 
+    justify-content: center;
+    display: flex;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+input{
+    border: none;
+}
+
+.buscador{
+    border: 1px solid grey;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.iconos{
+    letter-spacing: 5px;
+}
